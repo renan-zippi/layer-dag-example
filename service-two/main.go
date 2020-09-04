@@ -38,5 +38,6 @@ func index(w http.ResponseWriter, req *http.Request) {
 
 func main() {
 	http.HandleFunc("/", index)
+	http.HandleFunc("/test", index)
 	http.ListenAndServe(":8080", nil)
 }
