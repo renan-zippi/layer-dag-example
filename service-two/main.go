@@ -18,7 +18,7 @@ func index(w http.ResponseWriter, req *http.Request) {
 		LayerCI HTTP server example
 	</h1>
 	<p>
-		There are two services in this example.
+		Changing here!!!
 	</p>
 	<ol>
 		<li>service-one, which has a webserver but no tests</li>
